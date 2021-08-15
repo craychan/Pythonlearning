@@ -1,7 +1,7 @@
 # import packages
 import requests
 import re
-import time
+# import time
 
 #user Agent
 userAgent = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.67'}
@@ -44,8 +44,8 @@ def baidu(company):
     file1.close()
 # Continue to dig news by call function baidu()
 print("Please input second for period digging: ")
-t = input()
-t = int(t)
+# t = input()
+# t = int(t)
 while True:
     companys = ['华能信托', '阿里巴巴', '万科集团', '百度集团', '腾讯', '京东']
     for i in companys:
@@ -55,7 +55,7 @@ while True:
         except:
             print(i + '百度新闻爬取失败')
     print('-------------------------------百度新闻爬取结束------------------------------------------')
-    time.sleep(t)
+ #   time.sleep(t)
 
 if __name__ == '__main__':
     main()
