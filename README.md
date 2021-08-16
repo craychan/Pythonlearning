@@ -1,2 +1,2 @@
 # Pythonlearning
-Pythonlearning
+Pythonlearning for finance analysis
